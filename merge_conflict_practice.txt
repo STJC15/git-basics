@@ -1,0 +1,22 @@
+Just for practice, I created a brach called loginfeature, and in that branch, I modified the 
+file loginfeature.txt by adding "Added forget password" and "Added Sign out button".
+In the main branch, I also edited the same file by adding "implemented forget password functionality".
+
+If we do git merge on the main branch, this causes a conflict because we have two different version of the same file. 
+
+Log in feature implementation
+
+<<<<<<< HEAD
+implemented forget password functionality
+=======
+Added forget password
+
+Added Sign out button
+>>>>>>> loginfeature
+
+We need to manually choose the code that we wanted to keep. Here, I removed Added forget password since it's duplicated, and keep the sign out button feature. So then we can commit and push it to remote repository. 
+
+
+
+
+

@@ -1,3 +1,6 @@
 Log in feature implementation
 
-implemented forget password functionality
+implemented forget password functionality 
+
+Added Sign out button
+
